@@ -15,9 +15,7 @@ namespace StarChart
 
             services.AddMvc();
             services.AddDbContext<ApplicationDbContext>(options => 
-                options.UseInMemoryDatabase("StarChart"));
-
-
+                options.UseInMemoryDatabase("StarChart"));  
 
 
         }
